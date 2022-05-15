@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background: linear-gradient(to right, rgba(107, 99, 148, 0.7), lightskyblue);
+}
+
+.search-box {
+  width: 12rem;
+  height: 2rem;
+  color: #000;
+  border: 2px solid #000;
+  outline: 5px solid #fff;
+  outline-style: double;
+  background: rgba(220, 200, 255, 0.9);
+  margin-bottom: 1.5rem;
+}
+
+.card-list {
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1.5rem;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 8rem;
+  height: 15rem;
+  margin: 0 auto;
+  font-size: 0.8rem;
+  background-color: rgba(200, 68, 200, 0.5);
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 25px;
+  border: 3px solid #5f5f5f;
+  cursor: pointer;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  font-family: 'Stint Ultra Condensed', cursive;
+  color: rebeccapurple;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+img {
+  width: 8rem;
+}
